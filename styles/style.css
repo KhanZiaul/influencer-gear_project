@@ -1,0 +1,188 @@
+/* Global Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header Style */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar_tittle{
+    margin: 87px 120px;
+    color: #3A3A3A;
+}
+#navbar ul{
+    display: flex;
+    margin: 87px 120px;
+}
+#navbar ul li{
+    list-style: none;  
+}
+#navbar ul li a{
+   display: block;
+   text-decoration: none;
+   padding-right: 34px;
+   color: #3A3A3A;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+/* Start Your Journey */
+
+#start_journey{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    margin: 0 120px;
+}
+#journey_title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    margin-bottom: 25px;
+}
+.journey_summary{
+    font-weight: 600;
+    font-size: 14px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.journey_btn{
+    background-color:#E02C6D;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 41px;
+    padding:5px 10px;
+    border: none;
+    width: 196px;
+    height: 44px;
+}
+.fa-solid{
+    margin-left: 8px;
+}
+#journey_img{
+    width: 440px;
+    height: 414px;
+}
+
+/* logo section */
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+    margin: 100px 165px;
+    padding: 36px 62px;
+}
+.logo_img{
+    width: 55.05px;
+    height: 31.06px;
+}
+
+/* Popular Collection */
+
+.header_collection{
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:30px 197px 0 197px;
+}
+
+.collection{
+    padding:16px;
+}
+.collection_img{
+
+    width: 300px;
+    height: 256px;
+}
+
+.title_collection{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+}
+.amount_collection{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.rating ul{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.rating ul li{
+    list-style:none ;
+}
+.rating_number{
+font-weight: 700;
+font-size: 16px;
+color: #5E6366;
+}
+.fa-star{
+width: 16px;
+height: 16px;
+color: #FB8200;
+}
+.shift, .stoke, .protection{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+.more_title{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(224, 44, 109, 0.87);
+    text-align: right;
+    margin:50px 180px 0 0;
+}
+
+/* Feature Product */
+
+.feature{
+    display: flex;
+    gap: 96px;
+    margin: 100px 165px 123px 165px;
+}
+
+.feature_img{
+width: 404px;
+height: 270px;
+border-radius: 9px;
+}
+.feature_title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.feature_summary{
+    font-weight: 700;
+    font-size: 15px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+.feature_btn{
+    background: #E02C6D;
+    color: white;
+    width: 155px;
+    height: 44px;
+    border: none;
+}
+
+/* Footer */
